@@ -5,9 +5,9 @@
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Play', sans-serif;
   color: #546E7A;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
   background: #fff;
   overflow-x: hidden;
@@ -18,10 +18,10 @@ html {
 }
 
 p {
-  font-size: 14px;
+  font-size: 17px;
   color: #546E7A;
   line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Play', sans-serif;
   margin-bottom: 0;
 }
 
@@ -509,11 +509,11 @@ button:focus {
 }
 
 .bg-white .navbar-nav .nav-link:hover {
-  color: #F97794 !important;
+  color: #18a5c3 !important;
 }
 
 .bg-white .navbar-nav .active {
-  color: #F97794 !important;
+  color: #18a5c3 !important;
 }
 
 .close-button {
