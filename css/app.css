@@ -63,6 +63,10 @@ h5 {
     display: none !important;
 }
 
+.bg-color {
+    background-color: #263238 !important;
+}
+
 #color-style-switcher {
     display: none;
 }
