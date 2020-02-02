@@ -133,3 +133,8 @@ h5 {
 #team p.section-subtitle {
     color: aliceblue;
 }
+
+.copyright-flex {
+    display: flex;
+    justify-content: space-between;
+}
