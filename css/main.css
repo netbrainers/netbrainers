@@ -467,9 +467,9 @@ button:focus {
   color: #18a5c3;
 }
 
-.menu-bg .navbar-nav .nav-link {
+/* .menu-bg .navbar-nav .nav-link {
   color: #263238 !important;
-}
+} */
 
 .menu-bg .navbar-nav .nav-link:hover {
   color: #18a5c3 !important;
@@ -485,7 +485,7 @@ button:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  /* background-color: rgb(255, 255, 255) !important; */
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 5px;
@@ -502,10 +502,6 @@ button:focus {
 
 .bg-white .logo-menu a {
   color: #18a5c3;
-}
-
-.bg-white .navbar-nav .nav-link {
-  color: #263238 !important;
 }
 
 .bg-white .navbar-nav .nav-link:hover {
@@ -589,7 +585,7 @@ button:focus {
 }
 
 .menu-bg .collapse.show {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1);
   margin-bottom: 10px;
   -webkit-transition: 0.6s;
   -moz-transition: 0.6s;
@@ -2086,7 +2082,7 @@ textarea {
   19. Subscribe Style
   ========================================================================== */
 #subscribe {
-  background: url(../img/bg/bg-subs.jpg);
+  background: linear-gradient(rgba(75, 92, 102, 0.678),rgba(7, 19, 27, 0.9)),url(../img/bg/bg-subs.jpg);
   position: relative;
 }
 
@@ -2297,19 +2293,20 @@ footer .menu li a:hover {
 }
 
 #copyright {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 20px 0 10px;
   border-top: 1px solid #eaeaea;
-  color: #546E7A;
+  color: #fff;
 }
 
 #copyright p {
   margin-bottom: 0;
   line-height: 40px;
+  color: whitesmoke;
 }
 
 #copyright p a {
-  color: #546E7A;
+  color: rgb(148, 181, 197);
 }
 
 #copyright p a:hover {

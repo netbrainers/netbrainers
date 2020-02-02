@@ -101,9 +101,9 @@
   .controls .btn {
     padding: 10px 24px;
   }
-  .bg-white .collapse.show {
+  /* .bg-white .collapse.show {
     background: #fff;
-  }
+  } */
   .navbar-toggleable-sm > .container {
     width: 100%;
     padding-left: 30px;
@@ -230,9 +230,9 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-  .bg-white .collapse.show {
+  /* .bg-white .collapse.show {
     background: #fff;
-  }
+  } */
   .mainmenu-area {
     padding: 0;
   }
