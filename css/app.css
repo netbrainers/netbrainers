@@ -138,3 +138,8 @@ h5 {
     display: flex;
     justify-content: space-between;
 }
+
+.submit-button {
+    display: flex;
+    justify-content: space-between;
+}
