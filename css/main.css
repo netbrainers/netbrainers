@@ -1035,6 +1035,11 @@ button:focus {
 
 #portfolios .portfolio-item {
   padding: 10px;
+  margin: 5px;
+  height: 220px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
 }
 
 #portfolio .mix {
@@ -2098,7 +2103,7 @@ textarea {
 }
 
 .subscribe-form .form-wrapper {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 58px 40px;
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
