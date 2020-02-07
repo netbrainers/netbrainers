@@ -142,3 +142,41 @@ h5 {
 .submit-button {
     margin-top: 10px;
 }
+
+.contact-details {
+    background-color: #F1F3F4;
+}
+
+.contact-info_area {
+    display: flex;
+    flex-flow: column;
+    padding: 10px 10px 20px 20px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+@media (min-width: 500px) {
+    .address-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.message {
+    margin: 30px auto;
+}
+
+.lni-bulb {
+    border: 1px solid #17a4c2;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.cta-projects {
+    margin: 40px auto 20px;
+    text-align: center;
+}
