@@ -8,13 +8,23 @@
   <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="author" content="Grayrids">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158048596-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158048596-1');
+  </script>
+
   <title>NetBrainers Official | Digital Marketing - Software Development</title>
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Play:400,700&display=swap" rel="stylesheet">
   <!-- Site Descripttion -->
   <meta name="description" content="netbrainers is the best in digital marketing, software development and IT services provider. we provide technology and IT educational training and mentorship">
   <!-- Favicon Icon -->
-  <link rel="shortcut icon" href="img/netbrainers-icon-logo.png" type="image/png">
+  <link rel="shortcut icon" href="img/bg/logo/logo_icon.png" type="image/png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/line-icons.css">
@@ -321,6 +331,9 @@
         </div>
       </div>
     </div>
+    </div>
+    <div class="message container center">
+      <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight">GET A FREE QUOTATATION</a>
     </div>
   </section>
   <!-- Services Section End -->
@@ -719,7 +732,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 col-xs-12">
           <div class="single-team">
-            <img src="img/team/team1.png" alt="">
+            <img src="img/team/team1.jpg" alt="">
             <div class="team-details">
               <div class="team-inner">
                 <h4 class="team-title">Emmanuel Imoh</h4>
@@ -789,165 +802,6 @@
     </div>
   </section>
   <!-- Team section End -->
-
-  <!-- Quotation form Section Start -->
-  <div id="subscribe" class="section">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-6 col-md-12 col-xs-12">
-          <div class="subscribe-form">
-            <div class="form-wrapper">
-              <div class="sub-title text-center">
-                <h3>Get Quotation</h3>
-                <!-- <p>Weekly Freebies and More!</p> -->
-              </div>
-              <form id="quotation" name="quotation" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                <div class="row">
-                  <div class="col-12 form-line">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="name" placeholder="Name" required>
-                    </div>
-                  </div>
-                  <div class="col-md-12 form-line">
-                    <div class="form-group">
-                      <input type="tel" class="form-control" name="phone" placeholder="Phone" required>
-                    </div>
-                  </div>
-                  <div class="col-12 form-line">
-                    <div class="form-group">
-                      <input type="email" class="form-control" name="email" placeholder="Email" required>
-                    </div>
-                  </div>
-                  <div class="col-12 form-line">
-                    <div class="fs-group ">
-                      <h5 class="fs-head">Your Business Details <i class="lni-plus icons"></i></h5>
-                      <div class="form-group hide">
-                        <input type="text" class="form-control" name="name" placeholder="Business Name">
-                        <input type="text" class="form-control" name="businessType" placeholder="Business Type">
-                        <select name="" id="business-info" class="form-ctrl">
-                          <option value="">Select Business Status</option>
-                          <option value="registered">Registered</option>
-                          <option value="unregistered">Unegistered</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 form-line">
-                    <div class="fs-group">
-                      <h5 class="fs-head">Select services needed <i class="lni-plus icons"></i></h5>
-                      <div class="form-control hide">
-                        <div class="cbox">
-                          <label for="checkbox1">Software Development</label>
-                          <input type="checkbox" name="checkbox1" id="checkbox1">
-                        </div>
-                        <div class="cbox">
-                          <label for="checkbox2">Digital Marketing</label>
-                          <input type="checkbox" name="checkbox2" id="checkbox2">
-                        </div>
-                        <div class="cbox">
-                          <label for="checkbox3">Design</label>
-                          <input type="checkbox" name="checkbox3" id="checkbox3">
-                        </div>
-                        <div class="cbox">
-                          <label for="checkbox4">Education</label>
-                          <input type="checkbox" name="checkbox4" id="checkbox4">
-                        </div>
-                        <div class="cbox">
-                          <label for="checkbox5">IT Plus</label>
-                          <input type="checkbox" name="checkbox5" id="checkbox5">
-                        </div>
-                        <div class="cbox">
-                          <label for="checkbox6">Consultancy</label>
-                          <input type="checkbox" name="checkbox6" id="checkbox6">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 ">
-                    <div class="fs-group">
-                      <h5 class="fs-head">Additional comments <i class="lni-plus icons"></i></h5>
-                      <div class="form-group hide">
-                        <textarea name="" class="form-control" id="" cols="30" rows="5">
-                        </textarea>
-                        <div class="form-group">
-                          <input type="file" class="form-control-file form-control" id="File">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div data-netlify-recaptcha="true"></div>
-                    <div class="form-submit">
-                      <button type="submit" class="btn btn-common btn-effect">Apply Now</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-12 col-xs-12">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Subcribe Section End -->
-
-  <!-- Contact Section Start -->
-  <!-- <section id="contact" class="section">
-    <div class="contact-form">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Get In Touch</h2>
-          <span>Contact</span>
-          <p class="section-subtitle">use the form below to leave us your message.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-9 col-md-9 col-xs-12">
-            <div class="contact-block">
-              <form id="contactForm" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required
-                        data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required
-                        data-error="Please enter your email">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required
-                        data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Your Message" rows="7"
-                        data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div data-netlify-recaptcha="true"></div>
-                    <div class="submit-button">
-                      <button class="btn btn-common btn-effect" id="submit" type="submit">Send Message</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>       
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Contact Section End -->
 
   <!-- Map Section Start -->
   <section id="google-map-area">

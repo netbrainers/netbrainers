@@ -60,7 +60,15 @@ h5 {
 }
 
 .hide {
-    display: none !important;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
 }
 
 .bg-color {
